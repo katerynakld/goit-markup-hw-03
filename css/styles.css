@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -10,35 +10,6 @@ body {
 
 ul {
   list-style-type: none;
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 56px;
-  text-align: center;
-  color: #ffffff;
-}
-
-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  text-align: center;
-  color: #2e2f42;
-}
-
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-}
-
-body a {
-  color: #434455;
-  font-style: normal;
-}
-
-body a:hover,
-body a:focus {
-  color: #404bbf;
 }
 
 nav a {
@@ -52,6 +23,22 @@ nav a:hover {
   color: #404bbf;
 }
 
+nav .nav-link {
+  letter-spacing: 0.02em;
+}
+
+header .address-links a {
+  font-style: normal;
+  color: #434455;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+header .address-links a:hover,
+.address-links a:focus {
+  color: #404bbf;
+}
+
 .logo {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
@@ -59,37 +46,81 @@ nav a:hover {
   font-size: 18px;
   letter-spacing: 0.03em;
   text-decoration: none;
-}
-
-.logo-accent {
+  line-height: 1.17;
   color: #4d5ae5;
 }
 
-.hero-section button {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
+.logo-accent {
+  color: #2e2f42;
+}
+
+.hero-section-button {
   background-color: #4d5ae5;
   color: #ffffff;
   font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
-.hero-section button:hover,
-.hero-section button:focus {
+.hero-section-button:hover,
+.hero-section-button:focus {
   background-color: #404bbf;
   cursor: pointer;
-}
-
-body nav {
 }
 
 .hero-section {
   background-color: #2e2f42;
 }
 
+.hero-section-title {
+  font-weight: 700;
+  font-size: 56px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.secondary-section-title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: #2e2f42;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.features-section-text {
+  letter-spacing: 0.02em;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
 .team-section {
   background-color: #f4f4fd;
+}
+
+.team-cards {
+  background-color: #ffffff;
+}
+
+.team-cards h3 {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.team-cards p {
+  font-size: 16px;
+  letter-spacing: 0.02em;
 }
 
 footer {
@@ -97,6 +128,10 @@ footer {
 }
 
 footer .logo {
+  color: #4d5ae5;
+}
+
+footer .logo-accent {
   color: #f4f4fd;
 }
 
