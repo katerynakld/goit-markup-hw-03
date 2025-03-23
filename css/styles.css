@@ -12,6 +12,21 @@ ul {
   list-style-type: none;
 }
 
+.logo {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  line-height: 1.17;
+  color: #4d5ae5;
+}
+
+.logo-accent {
+  color: #2e2f42;
+}
+
 nav a {
   font-weight: 500;
   color: #2e2f42;
@@ -39,19 +54,17 @@ header .address-links a:hover,
   color: #404bbf;
 }
 
-.logo {
-  text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  line-height: 1.17;
-  color: #4d5ae5;
+.hero-section {
+  background-color: #2e2f42;
 }
 
-.logo-accent {
-  color: #2e2f42;
+.hero-section-title {
+  font-weight: 700;
+  font-size: 56px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .hero-section-button {
@@ -70,19 +83,6 @@ header .address-links a:hover,
   cursor: pointer;
 }
 
-.hero-section {
-  background-color: #2e2f42;
-}
-
-.hero-section-title {
-  font-weight: 700;
-  font-size: 56px;
-  text-align: center;
-  color: #ffffff;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-}
-
 .secondary-section-title {
   font-weight: 700;
   font-size: 36px;
@@ -93,34 +93,28 @@ header .address-links a:hover,
   text-transform: capitalize;
 }
 
-.features-section-text {
+.section-text {
   letter-spacing: 0.02em;
 }
 
-h3 {
+.sub-title {
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .team-section {
   background-color: #f4f4fd;
 }
 
+.team-section .secondary-section-title {
+  line-height: 1.11;
+}
+
 .team-cards {
   background-color: #ffffff;
-}
-
-.team-cards h3 {
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 20px;
-}
-
-.team-cards p {
-  font-size: 16px;
-  letter-spacing: 0.02em;
 }
 
 footer {
