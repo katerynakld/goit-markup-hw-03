@@ -34,15 +34,9 @@ img {
 /* common */
 
 .visually-hidden {
+  visibility: hidden;
+  pointer-events: none;
   position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
 }
 
 .container {
@@ -282,6 +276,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
 }
 
 .portfolio-cards .sub-title {
